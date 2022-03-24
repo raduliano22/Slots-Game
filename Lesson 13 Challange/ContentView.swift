@@ -54,7 +54,7 @@ struct ContentView: View {
                 thirdImage = myArray.randomElement()!
                 
                 if (firstImage == secondImage) && (secondImage == thirdImage) {
-                    creditNumber += 75
+                    creditNumber += 65
                 } else {
                     creditNumber -= 10
                 }
